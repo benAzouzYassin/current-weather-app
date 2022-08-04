@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">Weather App</div>
+        <p class="label">Please enter a valid city name</p>
+        <div class="error-msg loading-label" id="notif-label"></div>
+        <input type="text" placeholder="Enter city name" class="city-name">
+
+        <div class="devidor"></div>
+        <div class="btns">
+            <input type="button" value="Get location by name" class="get-location">
+            <input type="button" value="Get device location" class="get-device">
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
