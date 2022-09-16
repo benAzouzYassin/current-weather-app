@@ -1,230 +1,230 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: #43AFFC;
-    min-height: 100vh;
-    width: auto;
-    display: grid;
-    place-items: center;
+  background-color: #43affc;
+  min-height: 100vh;
+  width: auto;
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
-    background-color: white;
-    border-radius: 7px;
-    min-width: 55vh;
-    width: 400px;
-    padding-bottom: 25px;
-    display: grid;
-    place-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+  background-color: white;
+  border-radius: 7px;
+  min-width: 55vh;
+  width: 400px;
+  padding-bottom: 25px;
+  display: grid;
+  place-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .wrapper2 {
-    /*this wrapper is for the second page*/
-    background-color: white;
-    border-radius: 7px;
-    min-width: 55vh;
-    width: 400px;
-    display: grid;
-    place-items: center;
+  /*this wrapper is for the second page*/
+  background-color: white;
+  border-radius: 7px;
+  min-width: 55vh;
+  width: 400px;
+  display: grid;
+  place-items: center;
 }
 
 .header {
-    font-size: 22px;
-    color: #75c8ff;
-    padding-top: 17px;
-    font-size: 22px;
-    font-weight: 700;
-    border-bottom: 2px solid #bfbfbf;
-    place-self: start;
-    padding-bottom: 15px;
-    width: 100%;
-    text-align: center;
+  font-size: 22px;
+  color: #75c8ff;
+  padding-top: 17px;
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 2px solid #bfbfbf;
+  place-self: start;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .notif-red {
-    display: grid;
-    background-color: rgb(251, 134, 149);
-    width: 90%;
-    border-radius: 10px;
-    padding-top: 10px;
-    place-items: center;
-    padding-bottom: 10px;
-    height: 55px;
-    margin-top: 15px;
-    font-size: 17px;
-    font-weight: 600;
-    color: black;
+  display: grid;
+  background-color: rgb(251, 134, 149);
+  width: 90%;
+  border-radius: 10px;
+  padding-top: 10px;
+  place-items: center;
+  padding-bottom: 10px;
+  height: 55px;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
 }
 
 .notif-green {
-    display: grid;
-    background-color: rgb(134, 251, 140);
-    width: 90%;
-    border-radius: 10px;
-    padding-top: 10px;
-    place-items: center;
-    padding-bottom: 10px;
-    height: 55px;
-    margin-top: 15px;
-    font-size: 17px;
-    font-weight: 600;
-    color: black;
+  display: grid;
+  background-color: rgb(134, 251, 140);
+  width: 90%;
+  border-radius: 10px;
+  padding-top: 10px;
+  place-items: center;
+  padding-bottom: 10px;
+  height: 55px;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
 }
 
 .city-name {
-    margin-top: 10px;
-    width: 94%;
-    height: 55px;
-    border-radius: 10px;
-    outline: 0px;
-    border: 1px solid #bfbfbf;
-    padding-left: 20px;
-    font-size: 17px;
+  margin-top: 10px;
+  width: 94%;
+  height: 55px;
+  border-radius: 10px;
+  outline: 0px;
+  border: 1px solid #bfbfbf;
+  padding-left: 20px;
+  font-size: 17px;
 }
 
 .get-device {
-    width: 50%;
-    min-height: 55px;
-    border-radius: 10px;
-    background-color: #43acf1;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    border: none;
-    margin-left: 10px;
+  width: 50%;
+  min-height: 55px;
+  border-radius: 10px;
+  background-color: #43acf1;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  margin-left: 10px;
 }
 
 .btns {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    width: 90%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 90%;
 }
 
 .get-location {
-    width: 50%;
-    height: 55px;
-    border-radius: 10px;
-    background-color: #43acf1;
-    font-size: 15px;
-    color: white;
-    font-weight: 500;
-    border: none;
+  width: 50%;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #43acf1;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  border: none;
 }
 
 .city-name::placeholder {
-    font-size: 17px;
-    place-content: center;
+  font-size: 17px;
+  place-content: center;
 }
 
 .devidor {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    place-items: center;
-    justify-content: center;
-    background-color: #bfbfbf;
-    color: #bfbfbf;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: #bfbfbf;
+  color: #bfbfbf;
 }
 
 .devidor::before {
-    content: "or";
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: white;
-    font-size: 17px;
-    font-weight: 600;
+  content: "or";
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .get-device:hover {
-    cursor: pointer;
-    background-color: #1D9FFC;
-    transition: 0.7s ease;
+  cursor: pointer;
+  background-color: #1d9ffc;
+  transition: 0.7s ease;
 }
 
 .get-location:hover {
-    cursor: pointer;
-    background-color: #1D9FFC;
-    transition: 0.7s ease;
+  cursor: pointer;
+  background-color: #1d9ffc;
+  transition: 0.7s ease;
 }
 
 .label {
-    display: none;
-    place-self: start;
-    padding-left: 15px;
-    font-size: 17px;
-    font-weight: 700;
+  display: none;
+  place-self: start;
+  padding-left: 15px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .description-img {
-    margin-top: 15px;
-    width: 40%;
+  margin-top: 15px;
+  width: 40%;
 }
 
 .temperature-numb {
-    width: 50%;
-    font-size: 80px;
-    align-self: center;
-    font-weight: 600;
+  width: 50%;
+  font-size: 80px;
+  align-self: center;
+  font-weight: 600;
 }
 
 .temperature-deg {
-    font-size: 80px;
-    font-weight: 600;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .temperature-systeme {
-    font-size: 80px;
-    font-weight: 900;
+  font-size: 80px;
+  font-weight: 900;
 }
 
 .description-txt {
-    font-size: 30px;
-    font-weight: 600;
-    height: 70px;
+  font-size: 30px;
+  font-weight: 600;
+  height: 70px;
 }
 
 .location {
-    font-size: 30px;
-    font-weight: 600;
-    height: 50px;
-    height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  height: 60px;
 }
 
 .footer {
-    border-top: 1px solid #bfbfbf;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border-top: 1px solid #bfbfbf;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feels-like {
-    width: 50%;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-    border-right: 1px solid #bfbfbf;
-    padding-bottom: 20px;
-    padding-top: 20px;
+  width: 50%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  border-right: 1px solid #bfbfbf;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .humididty {
-    width: 50%;
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  width: 50%;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
